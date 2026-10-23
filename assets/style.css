@@ -1,0 +1,15 @@
+:root { --brand: #0f766e; --brand-dark: #0b5f58; --ink: #12263f; }
+body { font-family: 'Inter', system-ui, sans-serif; background: #f3f6f9; color: var(--ink); }
+.app-nav { background: var(--ink); }
+.btn-primary { --bs-btn-bg: var(--brand); --bs-btn-border-color: var(--brand);
+  --bs-btn-hover-bg: var(--brand-dark); --bs-btn-hover-border-color: var(--brand-dark);
+  --bs-btn-active-bg: var(--brand-dark); --bs-btn-active-border-color: var(--brand-dark); }
+.card { border: 0; border-radius: .75rem; box-shadow: 0 1px 3px rgba(18,38,63,.08); }
+.stat-icon { width: 48px; height: 48px; border-radius: .75rem; display: grid; place-items: center; font-size: 1.4rem; }
+.stat-number { font-size: 1.75rem; font-weight: 700; line-height: 1.1; }
+.table thead th { background: #eaf0f6; font-size: .8rem; font-weight: 600; color: #4a5d73; white-space: nowrap; }
+.table td, .table th { padding: .85rem 1rem; }
+.avatar { width: 38px; height: 38px; border-radius: 50%; background: #d6efec; color: var(--brand-dark);
+  display: grid; place-items: center; font-weight: 600; flex: none; }
+.badge { font-weight: 500; padding: .45em .75em; }
+.form-control:focus, .form-select:focus { border-color: var(--brand); box-shadow: 0 0 0 .2rem rgba(15,118,110,.18); }
